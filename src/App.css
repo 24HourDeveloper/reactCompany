@@ -1,33 +1,102 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:70%;
+  margin: 0 auto;
+  text-align: center
 }
 
-.App-link {
-  color: #61dafb;
+.inputStyle {
+  padding:10px;
+  width: 95%;
+  margin-bottom:20px;
+  font-size: 18px;
+  border:solid .5px #000
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonStyle {
+  padding:10px;
+  width:100%;
+  margin-bottom:20px;
+  font-size: 18px;
+  background-color: #2785C3;
+  color:#fff;
+  border: solid .5px #000;
+  box-shadow: 3px 3px 4px #000;
+  transition: background-color .5s, box-shadow .2s;
 }
+.buttonStyle:hover {
+  background-color: #216D9E;
+  box-shadow: 0px 0px #000;
+}
+
+.buttonForm {
+  padding:10px;
+  width:95%;
+  margin-bottom:20px;
+  font-size: 18px;
+  background-color: #2785C3;
+  color:#fff;
+  border: solid .5px #000;
+  box-shadow: 3px 3px 4px #000;
+  transition: background-color .5s, box-shadow .2s;
+}
+.buttonForm:hover {
+  background-color: #216D9E;
+  box-shadow: 0px 0px #000;
+}
+
+.status-red {
+  color:red
+}
+.status-green {
+  color:green
+}
+.status-orange {
+  color:orange
+}
+
+.icons {
+  font-size: 25px;
+  width:100%;
+  color:#2785C3;
+  padding-bottom: 20px
+  
+}
+.icon-report {
+  font-size: 25px;
+  color:#2785C3;
+  
+}
+.icon:hover {
+  color: #216D9E
+}
+.icon {
+  width:50%;
+  transition: color .5s
+}
+
+.bold-span {
+  font-weight: bold
+}
+
+.open {
+  visibility: visible;
+  margin:0 auto
+}
+.close {
+  visibility: hidden
+}
+
+.edit-modal {
+  width:60%;
+  height:60%;
+  background-color: #fff
+}
+
