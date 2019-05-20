@@ -1,102 +1,99 @@
-*{
+* {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .App {
   display: flex;
-  width:70%;
+  width: 70%;
   margin: 0 auto;
-  text-align: center
+  text-align: center;
 }
 
 .inputStyle {
-  padding:10px;
+  padding: 10px;
   width: 95%;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   font-size: 18px;
-  border:solid .5px #000
+  border: solid 0.5px #000;
 }
 
 .buttonStyle {
-  padding:10px;
-  width:100%;
-  margin-bottom:20px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
   font-size: 18px;
-  background-color: #2785C3;
-  color:#fff;
-  border: solid .5px #000;
+  background-color: #2785c3;
+  color: #fff;
+  border: solid 0.5px #000;
   box-shadow: 3px 3px 4px #000;
-  transition: background-color .5s, box-shadow .2s;
+  transition: background-color 0.5s, box-shadow 0.2s;
 }
 .buttonStyle:hover {
-  background-color: #216D9E;
+  background-color: #216d9e;
   box-shadow: 0px 0px #000;
 }
 
 .buttonForm {
-  padding:10px;
-  width:95%;
-  margin-bottom:20px;
+  padding: 10px;
+  width: 95%;
+  margin-bottom: 20px;
   font-size: 18px;
-  background-color: #2785C3;
-  color:#fff;
-  border: solid .5px #000;
+  background-color: #2785c3;
+  color: #fff;
+  border: solid 0.5px #000;
   box-shadow: 3px 3px 4px #000;
-  transition: background-color .5s, box-shadow .2s;
+  transition: background-color 0.5s, box-shadow 0.2s;
 }
 .buttonForm:hover {
-  background-color: #216D9E;
+  background-color: #216d9e;
   box-shadow: 0px 0px #000;
 }
 
 .status-red {
-  color:red
+  color: red;
 }
 .status-green {
-  color:green
+  color: green;
 }
 .status-orange {
-  color:orange
+  color: orange;
 }
 
 .icons {
   font-size: 25px;
-  width:100%;
-  color:#2785C3;
-  padding-bottom: 20px
-  
+  width: 100%;
+  color: #2785c3;
+  padding-bottom: 20px;
 }
 .icon-report {
   font-size: 25px;
-  color:#2785C3;
-  
+  color: #2785c3;
 }
 .icon:hover {
-  color: #216D9E
+  color: #216d9e;
 }
 .icon {
-  width:50%;
-  transition: color .5s
+  width: 50%;
+  transition: color 0.5s;
 }
 
 .bold-span {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .open {
   visibility: visible;
-  margin:0 auto
+  margin: 0 auto;
 }
 .close {
-  visibility: hidden
+  visibility: hidden;
 }
 
 .edit-modal {
-  width:60%;
-  height:60%;
-  background-color: #fff
+  width: 60%;
+  height: 90%;
+  background-color: #fff;
 }
-

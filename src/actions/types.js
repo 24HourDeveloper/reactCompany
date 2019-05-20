@@ -1,0 +1,13 @@
+export const INFO_INPUT = "INFO_INPUT";
+export const NAME_INPUT = "NAME_INPUT";
+export const CONTACT_INPUT = "CONTACT_INPUT";
+export const REVENUE_CONTACT = "REVENUE_CONTACT";
+export const SELECT_STATUS = "SELECT_STATUS";
+export const ADD_COMPANY = "ADD_COMPANY";
+export const ERASE_COMPANY = "ERASE_COMPANY";
+export const EDIT_COMPANY = "EDIT_COMPANY";
+export const OPEN_MODAL = "OPEN_MODAL";
+export const CLOSE_MODAL = "CLOSE_MODAL";
+export const M_NAME_INPUT = "M_NAME_INPUT";
+export const M_INFO_INPUT = "M_INFO_INPUT";
+export const M_CONTACT_INPUT = "M_CONTACT_INPUT";
